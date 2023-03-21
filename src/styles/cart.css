@@ -1,0 +1,36 @@
+.cartContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.cartItem-Content{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.cartItem-Content img{
+    width: 200px;
+    height: 200px;
+}
+.cartItem-Content .description{
+    width: 100%;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.countAmount input {
+    width: 30px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  button{
+     
+  }
